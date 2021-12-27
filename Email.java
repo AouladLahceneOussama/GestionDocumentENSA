@@ -24,8 +24,8 @@ public class Email {
     public void SendEmail(String email, String etat, File FileOut)
             throws IOException, InvocationTargetException, InterruptedException {
 
-        final String username = "ayat.anssaien@gmail.com";
-        final String password = "ayat070899";
+        final String username = "exemple@gmail.com";
+        final String password = "123456";
 
         Properties props = new Properties();
         props.put("mail.smtp.auth", true);
